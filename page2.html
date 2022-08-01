@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jujutsu Kaisen Fan Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Uchen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- logo and nav bar here -->
+    <heading class="logo_and_nav_bar">
+        <a href="page1.html">
+            <img src="images/jklogo2.png" alt="Jujutsu Kaisen" class="jk_logo">
+        </a>
+
+        <nav class="nav_bar">
+            <a href="page1.html" class="page_link">Home</a>
+            <a href="page2.html" class="page_link">Fanclub</a>
+            <a href="page3.html" class="page_link">Trailers/Clips</a>
+            <a href="page4.html" class="page_link">Characters</a>
+        </nav>
+    </heading>
+
+    <div class="article_header_container">
+        <h2 class="article_header about_the_show page2_h2">Join our fan club to hear all the new updates about Jujutsu Kaisen!</h2>
+    </div>
+
+    <div class="article_content">
+        <fieldset class="form_fieldset">
+            <form action="" class="fan_club_form">
+                <div class="input_text_group">
+                    <label for="email_input">Name (first or last, or both)</label>
+                    <input type="name" id="email_input" class="text_input checkbox_and_labels">
+                </div>
+
+                <div class="input_text_group">
+                    <label for="email_input">Email</label>
+                    <input type="email" id="email_input" class="text_input checkbox_and_labels">
+                </div>
+
+                <label for="">What emails would you like us to send you? (Check all that apply)</label>
+                <div class="checkbox_and_labels">
+                    <input type="checkbox" id="news_manga_input" class="">
+                    <label for="news_manga_input">News about new manga releases</label>
+                </div>
+                <div class="checkbox_and_labels">
+                    <input type="checkbox" id="news_anime_input">
+                    <label for="news_anime_input">Updates on new episodes of the show and other new media</label>
+                </div>
+                <div class="checkbox_and_labels">
+                    <input type="checkbox" id="promos_input">
+                    <label for="promos_input">Promotional offers from our sponsor, Crunchyroll</label>
+                </div>
+
+                <label for="bio_textarea">Tell us a little about yourself!</label>
+                <textarea id="bio_textarea" class="form_textarea checkbox_and_labels" cols="30" rows="10"></textarea>
+                <div class="submit_button_container">
+                    <input type="submit" class="submit_button checkbox_and_labels">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+
+</body>
+</html>
